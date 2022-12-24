@@ -10,14 +10,25 @@
 .choice-container:hover{
     cursor: pointer;
     box-shadow: 0 0.4rem 0 rgba(86, 185, 235,0.5);
-    transform: translate(-0.1rem);
+    transform: translate(-0.1ressm);
     transition: transfom 150rem;
 }
 .choice-prefix{
-    padding: 1.5rem;
+    padding:1.5rem;
     background-color: #56a5eb;
+    font-size: 20px;
+    width: 50px;
     color: white;
 }
 .choice-text{
     padding: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+.correct {
+    background-color: #28a745;
+}
+
+.incorrect{
+    background-color: #dc3545;
 }
